@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-# C++ implementation of the algorithms from Introduction to algorithms, 3rd Edition: Cormen, Leiserson, Rivest and Stein.
+# C++ implementation of the well-known algorithms
+
+## Based on the  Introduction to algorithms, 3rd Edition: Cormen, Leiserson, Rivest and Stein.
 
 ## List of currently implemented algorithms:
 
@@ -22,7 +23,3 @@ g++ -o a.out QuickSort.cpp
 
 ## Author
 Dmitry Abramov &copy
-
-=======
-# Cormen-Algorithms-in-Cpp
->>>>>>> 9ad96de040e4d8bca8b0a6f55074ef23a44acce3
