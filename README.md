@@ -5,12 +5,14 @@
 ## List of currently implemented algorithms:
 
 * MaxSubArray
+* InsertionSort
 * MergeSort
 * HeapSort
 * MaxPriorQueue
 * QuickSort
 * CountingSort
 * RadixSort
+* BucketSort
 
 ## How to run
 
