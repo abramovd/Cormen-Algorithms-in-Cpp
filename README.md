@@ -17,6 +17,8 @@
 * Data Structures
   * Stack based on Array
   * Stack based on Linked List
+  * Queue based on Array
+  * Queue based on Linked List
 
 ## How to run
 

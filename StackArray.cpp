@@ -10,7 +10,7 @@ public:
 		S = new T[maxN];
 		size = 0;
 	}
-	bool empty() {
+	bool empty() const{
 		return size == 0;
 	}
 	
