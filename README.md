@@ -3,17 +3,20 @@
 ## Based on the  Introduction to algorithms, 3rd Edition: Cormen, Leiserson, Rivest and Stein.
 
 ## List of currently implemented algorithms:
-
-* MaxSubArray
-* InsertionSort
-* MergeSort
-* HeapSort
-* MaxPriorQueue
-* QuickSort
-* CountingSort
-* RadixSort
-* BucketSort
-* RandomizedSelect
+* Sorting and Order Statistics
+  * MaxSubArray
+  * InsertionSort
+  * MergeSort
+  * HeapSort
+  * MaxPriorQueue
+  * QuickSort
+  * CountingSort
+  * RadixSort
+  * BucketSort
+  * RandomizedSelect
+* Data Structures
+  * Stack based on Array
+  * Stack based on Linked List
 
 ## How to run
 
