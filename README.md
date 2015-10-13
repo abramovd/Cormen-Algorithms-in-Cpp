@@ -13,6 +13,7 @@
 * CountingSort
 * RadixSort
 * BucketSort
+* RandomizedSelect
 
 ## How to run
 

@@ -19,21 +19,23 @@ int partition(T*a, int p, int r) {
 }
 
 template <class T>
-void quickSort(T* a, int p, int r) {
-
-	if (p < r) {
-		int q = partition(a, p, r);
-		quickSort(a, p, q - 1);
-		quickSort(a, q + 1, r);
+T randomSelect(T* A, int p, int r, int i) {
+	if (p == r) return A[p];
+	int q = partition<T>(A, p, r);
+	if (i == q) {
+		return A[q];
+	} else if (i < q) {
+		return randomSelect<T>(A, p, q - 1, i);
+	} else {
+		return randomSelect<T>(A, q + 1, r, i);
 	}
+	
 }
 
 int main() {
-	double a[] = {10.1, -5.2, 6, 7, -3, 10, -2};
-	int size = sizeof(a) / sizeof(double);
-	quickSort<double>(a, 0, size - 1);
-/*	for (int i = 0; i < size; ++i)
-		std::cout << a[i] << " ";
-*/
+	int a[] = {-7, 11, 3, 2, 8};
+	int size = sizeof(a) / sizeof(int);
+	std::cout << randomSelect<int>(a, 0, size - 1, 4);
+	
 	return 0;
 }
