@@ -10,6 +10,7 @@
 * MaxPriorQueue
 * QuickSort
 * CountingSort
+* RadixSort
 
 ## How to run
 
