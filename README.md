@@ -20,6 +20,7 @@
   * Queue based on Array
   * Queue based on Linked List
   * Hash Table - Collision Resolution
+  * Hash Table - Open Addressing
 
 ## How to run
 
