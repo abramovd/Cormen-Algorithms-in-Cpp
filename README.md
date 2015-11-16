@@ -21,6 +21,7 @@
   * Queue based on Linked List
   * Hash Table - Collision Resolution
   * Hash Table - Open Addressing
+  * Binary Search Tree
 
 ## How to run
 
