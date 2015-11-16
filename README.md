@@ -19,6 +19,7 @@
   * Stack based on Linked List
   * Queue based on Array
   * Queue based on Linked List
+  * Hash Table - Collision Resolution
 
 ## How to run
 

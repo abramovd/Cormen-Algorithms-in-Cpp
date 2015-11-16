@@ -1,8 +1,6 @@
 #include <iostream>
 
-using namespace std;
-
-const int INF = 10000000;
+#define INF 10000000
 
 template <class T>
 void merge(T* A, int p, int q, int r) {
@@ -55,7 +53,7 @@ int main() {
 	merge_sort<int>(a, 0, size - 1);
 /*
 	for (int i = 0; i < size; ++i)
-		cout << a[i] << " ";
+		std::cout << a[i] << " ";
 */
     return 0;
 	
